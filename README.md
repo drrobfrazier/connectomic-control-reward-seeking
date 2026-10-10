@@ -79,5 +79,5 @@ Citation metadata are provided in [`CITATION.cff`](CITATION.cff). The publicatio
 ### Author
 
 **Robert M. Frazier, PhD**  
-Independent Researcher  
+This is Living Ministries, Research Divison
 ORCID: 0009-0003-0861-4939
