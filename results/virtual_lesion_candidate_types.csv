@@ -1,0 +1,15 @@
+type,n_neurons,role
+MBON05,2,candidate
+MBON30,2,candidate
+MBON04,2,candidate
+MBON01,2,candidate
+MBON11,2,candidate
+MBON29,2,candidate
+MBON03,2,candidate
+MBON21,2,candidate
+MBON33,2,candidate
+MBON31,2,candidate
+PPL102,2,candidate
+SMP108,2,candidate
+APL,2,control
+DPM,2,control
