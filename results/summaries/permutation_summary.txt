@@ -1,0 +1,61 @@
+ANALYSIS 03: PERMUTATION NULL MODEL
+===================================
+
+Permutations: 10,000
+Random seed: 20261007
+
+Null model: retain the exact same 119 DAN neurons and all anatomical connections, randomly assign 4 as punishment and the remaining 115 as reward.
+
+shared_targets
+--------------
+Observed:       2636.000000
+Null mean:      1566.674100
+Null SD:        608.704253
+Null 95% range: 863.000000 to 3096.000000
+Z score:        1.756725
+Upper-tail p:   0.13348665
+
+shared_total_synapses
+---------------------
+Observed:       120654.000000
+Null mean:      73590.695100
+Null SD:        17193.418683
+Null 95% range: 51139.125000 to 121540.250000
+Z score:        2.737286
+Upper-tail p:   0.04819518
+
+all4_punishment_shared
+----------------------
+Observed:       1181.000000
+Null mean:      5.927800
+Null SD:        12.532657
+Null 95% range: 0.000000 to 33.000000
+Z score:        93.760820
+Upper-tail p:   0.00009999
+
+kc_mbon_shared
+--------------
+Observed:       2291.000000
+Null mean:      1246.342600
+Null SD:        494.142574
+Null 95% range: 604.975000 to 2546.050000
+Z score:        2.114081
+Upper-tail p:   0.06219378
+
+apl_dpm_shared
+--------------
+Observed:       4.000000
+Null mean:      3.999800
+Null SD:        0.014141
+Null 95% range: 4.000000 to 4.000000
+Z score:        0.014143
+Upper-tail p:   0.99980002
+
+mean_balance_shared
+-------------------
+Observed:       0.185645
+Null mean:      0.605641
+Null SD:        0.101133
+Null 95% range: 0.359344 to 0.709882
+Z score:        -4.152888
+Upper-tail p:   1.00000000

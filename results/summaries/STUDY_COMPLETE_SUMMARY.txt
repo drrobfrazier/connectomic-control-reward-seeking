@@ -1,0 +1,62 @@
+CONNECTOMIC CONTROL OF MALADAPTIVE REWARD SEEKING
+Whole-CNS Identification of Circuit Vulnerabilities in Drosophila
+==========================================================================
+
+MATCHED DAN NULL MODEL
+----------------------
+shared_targets_observed: 2636
+shared_targets_null_mean: 1260.2658
+shared_targets_p_upper: 9.999000099990002e-05
+all4_shared_observed: 1181
+all4_shared_null_mean: 2.7816
+all4_shared_p_upper: 9.999000099990002e-05
+mean_balance_observed: 0.18564486164746236
+mean_balance_null_mean: 0.43577963030535577
+mean_balance_p_lower: 0.009499050094990502
+shared_total_synapses_observed: 120654.0
+shared_total_synapses_null_mean: 40805.5276
+shared_total_synapses_p_upper: 9.999000099990002e-05
+
+TOP STRUCTURAL INTERFACE CANDIDATES
+-----------------------------------
+body=10495 type=MBON05 score=0.9661 dominance=+0.4242 polarity=reward-dominant DNreach=0.007265
+body=44850 type=KCg-s3 score=0.9630 dominance=-0.9053 polarity=punishment-dominant DNreach=0.007009
+body=513174 type=MBON30 score=0.9617 dominance=-0.9900 polarity=punishment-dominant DNreach=0.019910
+body=519371 type=MBON05 score=0.9588 dominance=+0.0956 polarity=balanced DNreach=0.006458
+body=79362 type=KCg-s3 score=0.9583 dominance=-0.8699 polarity=punishment-dominant DNreach=0.006659
+body=520206 type=KCg-d score=0.9570 dominance=-0.8883 polarity=punishment-dominant DNreach=0.006697
+body=525780 type=MBON04 score=0.9477 dominance=+0.9452 polarity=reward-dominant DNreach=0.008326
+body=10013 type=MBON01 score=0.9399 dominance=+0.4458 polarity=reward-dominant DNreach=0.024149
+body=530875 type=MBON04 score=0.9392 dominance=+0.8455 polarity=reward-dominant DNreach=0.007750
+body=11402 type=MBON11 score=0.9385 dominance=-0.9982 polarity=punishment-dominant DNreach=0.005366
+body=47117 type=KCg-m score=0.9367 dominance=-0.8323 polarity=punishment-dominant DNreach=0.005608
+body=523987 type=MBON29 score=0.9335 dominance=+0.2484 polarity=reward-dominant DNreach=0.011940
+body=38657 type=KCg-d score=0.9265 dominance=-0.8822 polarity=punishment-dominant DNreach=0.006245
+body=24146 type=KCg-s2 score=0.9240 dominance=-0.9248 polarity=punishment-dominant DNreach=0.004725
+body=521526 type=MBON03 score=0.9236 dominance=+0.8912 polarity=reward-dominant DNreach=0.004702
+body=21778 type=KCg-s1 score=0.9234 dominance=-0.8604 polarity=punishment-dominant DNreach=0.004728
+body=36723 type=KCg-d score=0.9135 dominance=-0.8835 polarity=punishment-dominant DNreach=0.004821
+body=135662 type=KCg-d score=0.9093 dominance=-0.8699 polarity=punishment-dominant DNreach=0.006448
+body=87868 type=KCg-d score=0.9078 dominance=-0.9199 polarity=punishment-dominant DNreach=0.006483
+body=18540 type=KCg-s1 score=0.8999 dominance=-0.7895 polarity=punishment-dominant DNreach=0.003725
+
+VIRTUAL LESION ROBUSTNESS RANKING
+---------------------------------
+type=APL n=2 robust_score=2.1155 median_conflict_delta=+0.2242 median_reward_delta=-0.0317 sign_consistency=0.50
+type=MBON11 n=2 robust_score=1.7388 median_conflict_delta=-0.0348 median_reward_delta=+0.0000 sign_consistency=1.00
+type=MBON04 n=2 robust_score=1.4014 median_conflict_delta=+0.1083 median_reward_delta=+0.0573 sign_consistency=1.00
+type=MBON03 n=2 robust_score=1.3769 median_conflict_delta=+0.4032 median_reward_delta=+0.2728 sign_consistency=1.00
+type=MBON05 n=2 robust_score=0.7936 median_conflict_delta=+0.0294 median_reward_delta=+0.0171 sign_consistency=1.00
+type=MBON31 n=2 robust_score=0.6402 median_conflict_delta=-0.0246 median_reward_delta=-0.0184 sign_consistency=1.00
+type=MBON21 n=2 robust_score=0.3700 median_conflict_delta=-0.0222 median_reward_delta=-0.0249 sign_consistency=0.75
+type=MBON33 n=2 robust_score=0.3342 median_conflict_delta=-0.0089 median_reward_delta=+0.0000 sign_consistency=0.75
+type=DPM n=2 robust_score=0.0589 median_conflict_delta=-0.0007 median_reward_delta=+0.0000 sign_consistency=0.50
+type=MBON30 n=2 robust_score=0.0000 median_conflict_delta=+0.0000 median_reward_delta=+0.0000 sign_consistency=0.00
+type=MBON01 n=2 robust_score=0.0000 median_conflict_delta=+0.0000 median_reward_delta=+0.0000 sign_consistency=0.00
+type=MBON29 n=2 robust_score=0.0000 median_conflict_delta=+0.0000 median_reward_delta=+0.0000 sign_consistency=0.00
+type=PPL102 n=2 robust_score=0.0000 median_conflict_delta=+0.0000 median_reward_delta=+0.0000 sign_consistency=0.00
+type=SMP108 n=2 robust_score=0.0000 median_conflict_delta=+0.0000 median_reward_delta=+0.0000 sign_consistency=0.00
+
+INTERPRETATION NOTE
+-------------------
+The MaleCNS wiring is empirical, but FlyBrain neural dynamics are a simplified LIF model. Simulation results therefore test propagation and perturbation hypotheses, not drug pharmacology, dopamine receptor biology, or a literal addicted-fly state.

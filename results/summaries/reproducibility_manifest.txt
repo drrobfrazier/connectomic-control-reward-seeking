@@ -1,0 +1,15 @@
+pipeline_random_seed: 20261008
+flybrain_git_commit: c582cfdb90c49cfa7da71d0f5ec958dc17730223
+python: 3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]
+numpy: 2.5.1
+pyarrow: 25.0.0
+matched_null_permutations: 10000
+simulation_model: shiu
+simulation_hz: 30.0,60.0
+simulation_weight_scale: 0.35,0.5
+simulation_ms: 300.0
+simulation_stim_ms: 200.0
+simulation_trials: 3
+simulation_dt_ms: 0.1
+approach_readout_neurons: 71
+avoidance_readout_neurons: 26

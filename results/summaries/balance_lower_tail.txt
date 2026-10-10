@@ -1,0 +1,9 @@
+BALANCE DIRECTIONAL TEST
+------------------------
+Observed balance: 0.185645
+Null mean: 0.605641
+Null minimum: 0.238523
+Null maximum: 0.748237
+Permutations <= observed: 0
+Lower-tail p: 0.00009999
+Two-sided empirical p: 0.00019998

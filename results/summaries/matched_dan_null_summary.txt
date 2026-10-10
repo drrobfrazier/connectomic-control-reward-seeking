@@ -1,0 +1,18 @@
+DEGREE/STRENGTH-MATCHED DAN NULL MODEL
+======================================
+Reward population held fixed at the 115 preregistered PAM reward DANs.
+Each observed punishment DAN was replaced by a non-seed dopamine DAN matched
+on log outgoing target degree and log outgoing synaptic strength.
+
+shared_targets_observed: 2636
+shared_targets_null_mean: 1260.2658
+shared_targets_p_upper: 9.999000099990002e-05
+all4_shared_observed: 1181
+all4_shared_null_mean: 2.7816
+all4_shared_p_upper: 9.999000099990002e-05
+mean_balance_observed: 0.18564486164746236
+mean_balance_null_mean: 0.43577963030535577
+mean_balance_p_lower: 0.009499050094990502
+shared_total_synapses_observed: 120654.0
+shared_total_synapses_null_mean: 40805.5276
+shared_total_synapses_p_upper: 9.999000099990002e-05
