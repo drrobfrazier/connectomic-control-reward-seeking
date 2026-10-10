@@ -1,0 +1,132 @@
+SEED REGISTRY
+-------------
+Total seeds:      119
+Reward seeds:     115
+Punishment seeds: 4
+
+Scanning MaleCNS graph...
+Seed-originating edges: 85,857
+Unique downstream targets: 34,172
+
+OBSERVED CONFIGURATION
+----------------------
+shared_targets               2,636
+shared_total_synapses        120,654
+all4_punishment_shared       1,181
+kc_mbon_shared               2,291
+apl_dpm_shared               4
+mean_balance_shared          0.185645
+
+Running 10,000 label permutations...
+  completed 1,000 / 10,000
+  completed 2,000 / 10,000
+  completed 3,000 / 10,000
+  completed 4,000 / 10,000
+  completed 5,000 / 10,000
+  completed 6,000 / 10,000
+  completed 7,000 / 10,000
+  completed 8,000 / 10,000
+  completed 9,000 / 10,000
+  completed 10,000 / 10,000
+
+
+ANALYSIS 03: PERMUTATION NULL MODEL
+===================================
+
+Permutations: 10,000
+Random seed: 20261007
+
+Null model: retain the exact same 119 DAN neurons and all anatomical connections, randomly assign 4 as punishment and the remaining 115 as reward.
+
+shared_targets
+--------------
+Observed:       2636.000000
+Null mean:      1566.674100
+Null SD:        608.704253
+Null 95% range: 863.000000 to 3096.000000
+Z score:        1.756725
+Upper-tail p:   0.13348665
+
+shared_total_synapses
+---------------------
+Observed:       120654.000000
+Null mean:      73590.695100
+Null SD:        17193.418683
+Null 95% range: 51139.125000 to 121540.250000
+Z score:        2.737286
+Upper-tail p:   0.04819518
+
+all4_punishment_shared
+----------------------
+Observed:       1181.000000
+Null mean:      5.927800
+Null SD:        12.532657
+Null 95% range: 0.000000 to 33.000000
+Z score:        93.760820
+Upper-tail p:   0.00009999
+
+kc_mbon_shared
+--------------
+Observed:       2291.000000
+Null mean:      1246.342600
+Null SD:        494.142574
+Null 95% range: 604.975000 to 2546.050000
+Z score:        2.114081
+Upper-tail p:   0.06219378
+
+apl_dpm_shared
+--------------
+Observed:       4.000000
+Null mean:      3.999800
+Null SD:        0.014141
+Null 95% range: 4.000000 to 4.000000
+Z score:        0.014143
+Upper-tail p:   0.99980002
+
+mean_balance_shared
+-------------------
+Observed:       0.185645
+Null mean:      0.605641
+Null SD:        0.101133
+Null 95% range: 0.359344 to 0.709882
+Z score:        -4.152888
+Upper-tail p:   1.00000000
+
+SELECTED BIOLOGICALLY RELEVANT TARGETS
+--------------------------------------
+body=10540     type=APL             R=774   P=1213  Dsyn=  -0.957 Bsyn=   0.043
+body=10977     type=APL             R=802   P=1071  Dsyn=  -0.949 Bsyn=   0.051
+body=11402     type=MBON11          R=36    P=1393  Dsyn=  -0.998 Bsyn=   0.002
+body=10495     type=MBON05          R=1209  P=17    Dsyn=   0.424 Bsyn=   0.576
+body=519371    type=MBON05          R=1010  P=29    Dsyn=   0.096 Bsyn=   0.904
+body=11734     type=DPM             R=614   P=335   Dsyn=  -0.880 Bsyn=   0.120
+body=10704     type=MBON11          R=29    P=920   Dsyn=  -0.998 Bsyn=   0.002
+body=12569     type=DPM             R=447   P=280   Dsyn=  -0.895 Bsyn=   0.105
+body=44069     type=KCg-d           R=95    P=66    Dsyn=  -0.905 Bsyn=   0.095
+body=24146     type=KCg-s2          R=82    P=73    Dsyn=  -0.925 Bsyn=   0.075
+body=18540     type=KCg-s1          R=115   P=34    Dsyn=  -0.789 Bsyn=   0.211
+body=520206    type=KCg-d           R=85    P=50    Dsyn=  -0.888 Bsyn=   0.112
+body=21778     type=KCg-s1          R=82    P=38    Dsyn=  -0.860 Bsyn=   0.140
+body=44850     type=KCg-s3          R=70    P=49    Dsyn=  -0.905 Bsyn=   0.095
+body=79362     type=KCg-s3          R=76    P=38    Dsyn=  -0.870 Bsyn=   0.130
+body=25030     type=KCg-s2          R=45    P=62    Dsyn=  -0.951 Bsyn=   0.049
+body=38657     type=KCg-d           R=63    P=35    Dsyn=  -0.882 Bsyn=   0.118
+body=58802     type=KCg-d           R=41    P=44    Dsyn=  -0.937 Bsyn=   0.063
+body=40821     type=KCg             R=44    P=40    Dsyn=  -0.926 Bsyn=   0.074
+body=36723     type=KCg-d           R=48    P=27    Dsyn=  -0.884 Bsyn=   0.116
+body=206739    type=KCg-s4          R=32    P=42    Dsyn=  -0.948 Bsyn=   0.052
+body=47117     type=KCg-m           R=50    P=19    Dsyn=  -0.832 Bsyn=   0.168
+body=135897    type=KCg-d           R=36    P=33    Dsyn=  -0.927 Bsyn=   0.073
+body=135662    type=KCg-d           R=44    P=22    Dsyn=  -0.870 Bsyn=   0.130
+body=87868     type=KCg-d           R=36    P=30    Dsyn=  -0.920 Bsyn=   0.080
+body=80905     type=KCg-d           R=30    P=34    Dsyn=  -0.940 Bsyn=   0.060
+body=144578    type=KCg-d           R=34    P=29    Dsyn=  -0.922 Bsyn=   0.078
+body=50933     type=KCg-d           R=34    P=28    Dsyn=  -0.919 Bsyn=   0.081
+body=119632    type=KCg-m           R=41    P=19    Dsyn=  -0.860 Bsyn=   0.140
+body=556005    type=KCg-d           R=30    P=30    Dsyn=  -0.933 Bsyn=   0.067
+
+FILES WRITTEN
+-------------
+<PROJECT_ROOT>/results/direct_convergence_dominance.csv
+<PROJECT_ROOT>/results/permutation_null_10000.csv
+<PROJECT_ROOT>/results/permutation_summary.txt

@@ -1,0 +1,140 @@
+==============================================================================
+MASTER STUDY PIPELINE
+Connectomic Control of Maladaptive Reward Seeking
+==============================================================================
+Project: <PROJECT_ROOT>
+FlyBrain: <FLYBRAIN_ROOT>
+
+[1/7] Loading annotations and frozen seed registry...
+  Reward seeds: 115
+  Punishment seeds: 4
+  Annotated dopamine DAN pool: 338
+
+[2/7] Extracting outgoing edges for all annotated DANs from raw MaleCNS...
+  DAN-originating raw edges: 272,139
+  Observed (recomputed from raw DAN subset):
+    shared_targets: 2636
+    all4_shared: 1181
+    mean_balance: 0.18564486164746236
+    shared_total_synapses: 120654.0
+
+[3/7] Running degree/strength-matched DAN null model (10,000 draws)...
+  matched null: 1,000/10,000
+  matched null: 2,000/10,000
+  matched null: 3,000/10,000
+  matched null: 4,000/10,000
+  matched null: 5,000/10,000
+  matched null: 6,000/10,000
+  matched null: 7,000/10,000
+  matched null: 8,000/10,000
+  matched null: 9,000/10,000
+  matched null: 10,000/10,000
+  Matched-null summary:
+    shared_targets_observed: 2636
+    shared_targets_null_mean: 1260.2658
+    shared_targets_p_upper: 9.999000099990002e-05
+    all4_shared_observed: 1181
+    all4_shared_null_mean: 2.7816
+    all4_shared_p_upper: 9.999000099990002e-05
+    mean_balance_observed: 0.18564486164746236
+    mean_balance_null_mean: 0.43577963030535577
+    mean_balance_p_lower: 0.009499050094990502
+    shared_total_synapses_observed: 120654.0
+    shared_total_synapses_null_mean: 40805.5276
+    shared_total_synapses_p_upper: 9.999000099990002e-05
+
+[4/7] Computing whole-CNS structural reach to descending neurons...
+connectome loaded in 1.2 s (165,384 neurons, 10,383,990 connections)
+
+[5/7] Ranking structural reward/punishment interface candidates...
+  Top structural candidates:
+    body=10495    type=MBON05             score=0.966 dom=+0.424 DNreach=0.0073
+    body=44850    type=KCg-s3             score=0.963 dom=-0.905 DNreach=0.0070
+    body=513174   type=MBON30             score=0.962 dom=-0.990 DNreach=0.0199
+    body=519371   type=MBON05             score=0.959 dom=+0.096 DNreach=0.0065
+    body=79362    type=KCg-s3             score=0.958 dom=-0.870 DNreach=0.0067
+    body=520206   type=KCg-d              score=0.957 dom=-0.888 DNreach=0.0067
+    body=525780   type=MBON04             score=0.948 dom=+0.945 DNreach=0.0083
+    body=10013    type=MBON01             score=0.940 dom=+0.446 DNreach=0.0241
+    body=530875   type=MBON04             score=0.939 dom=+0.846 DNreach=0.0077
+    body=11402    type=MBON11             score=0.939 dom=-0.998 DNreach=0.0054
+    body=47117    type=KCg-m              score=0.937 dom=-0.832 DNreach=0.0056
+    body=523987   type=MBON29             score=0.933 dom=+0.248 DNreach=0.0119
+    body=38657    type=KCg-d              score=0.926 dom=-0.882 DNreach=0.0062
+    body=24146    type=KCg-s2             score=0.924 dom=-0.925 DNreach=0.0047
+    body=521526   type=MBON03             score=0.924 dom=+0.891 DNreach=0.0047
+
+[6/7] Virtual lesion screen: 14 cell types
+  MBON05, MBON30, MBON04, MBON01, MBON11, MBON29, MBON03, MBON21, MBON33, MBON31, PPL102, SMP108, APL, DPM
+  intact simulations: weight_scale=0.35, hz=30.0
+    lesion 01/14: MBON05 (n=2)
+    lesion 02/14: MBON30 (n=2)
+    lesion 03/14: MBON04 (n=2)
+    lesion 04/14: MBON01 (n=2)
+    lesion 05/14: MBON11 (n=2)
+    lesion 06/14: MBON29 (n=2)
+    lesion 07/14: MBON03 (n=2)
+    lesion 08/14: MBON21 (n=2)
+    lesion 09/14: MBON33 (n=2)
+    lesion 10/14: MBON31 (n=2)
+    lesion 11/14: PPL102 (n=2)
+    lesion 12/14: SMP108 (n=2)
+    lesion 13/14: APL (n=2)
+    lesion 14/14: DPM (n=2)
+  intact simulations: weight_scale=0.35, hz=60.0
+    lesion 01/14: MBON05 (n=2)
+    lesion 02/14: MBON30 (n=2)
+    lesion 03/14: MBON04 (n=2)
+    lesion 04/14: MBON01 (n=2)
+    lesion 05/14: MBON11 (n=2)
+    lesion 06/14: MBON29 (n=2)
+    lesion 07/14: MBON03 (n=2)
+    lesion 08/14: MBON21 (n=2)
+    lesion 09/14: MBON33 (n=2)
+    lesion 10/14: MBON31 (n=2)
+    lesion 11/14: PPL102 (n=2)
+    lesion 12/14: SMP108 (n=2)
+    lesion 13/14: APL (n=2)
+    lesion 14/14: DPM (n=2)
+  intact simulations: weight_scale=0.5, hz=30.0
+    lesion 01/14: MBON05 (n=2)
+    lesion 02/14: MBON30 (n=2)
+    lesion 03/14: MBON04 (n=2)
+    lesion 04/14: MBON01 (n=2)
+    lesion 05/14: MBON11 (n=2)
+    lesion 06/14: MBON29 (n=2)
+    lesion 07/14: MBON03 (n=2)
+    lesion 08/14: MBON21 (n=2)
+    lesion 09/14: MBON33 (n=2)
+    lesion 10/14: MBON31 (n=2)
+    lesion 11/14: PPL102 (n=2)
+    lesion 12/14: SMP108 (n=2)
+    lesion 13/14: APL (n=2)
+    lesion 14/14: DPM (n=2)
+  intact simulations: weight_scale=0.5, hz=60.0
+    lesion 01/14: MBON05 (n=2)
+    lesion 02/14: MBON30 (n=2)
+    lesion 03/14: MBON04 (n=2)
+    lesion 04/14: MBON01 (n=2)
+    lesion 05/14: MBON11 (n=2)
+    lesion 06/14: MBON29 (n=2)
+    lesion 07/14: MBON03 (n=2)
+    lesion 08/14: MBON21 (n=2)
+    lesion 09/14: MBON33 (n=2)
+    lesion 10/14: MBON31 (n=2)
+    lesion 11/14: PPL102 (n=2)
+    lesion 12/14: SMP108 (n=2)
+    lesion 13/14: APL (n=2)
+    lesion 14/14: DPM (n=2)
+
+[7/7] Writing study summary and reproducibility manifest...
+
+==============================================================================
+PIPELINE COMPLETE
+==============================================================================
+Main summary: <PROJECT_ROOT>/results/STUDY_COMPLETE_SUMMARY.txt
+Matched DAN null: <PROJECT_ROOT>/results/matched_dan_null_summary.txt
+Structural ranking: <PROJECT_ROOT>/results/structural_candidate_ranking.csv
+Lesion screen: <PROJECT_ROOT>/results/virtual_lesion_results.csv
+Lesion summary: <PROJECT_ROOT>/results/virtual_lesion_summary.csv
+Manifest: <PROJECT_ROOT>/results/reproducibility_manifest.txt

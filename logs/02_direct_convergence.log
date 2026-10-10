@@ -1,0 +1,48 @@
+Frozen seed registry
+--------------------
+Reward seeds:     115
+Punishment seeds: 4
+Total seeds:      119
+
+Scanning full MaleCNS connection graph...
+Seed-originating edges found: 85,857
+Unique downstream targets:    34,172
+
+DIRECT CONNECTOME RESULTS
+-------------------------
+Reward downstream targets:     21,106
+Punishment downstream targets: 15,702
+Shared direct targets:         2,636
+Shared + identified targets:   2,628
+
+TOP 25 DIRECT CONVERGENCE TARGETS
+--------------------------------
+body=10977      type=APL                       R=802    P=1071   Rsrc=106 Psrc=4   min=802
+body=10540      type=APL                       R=774    P=1213   Rsrc=107 Psrc=4   min=774
+body=11734      type=DPM                       R=614    P=335    Rsrc=101 Psrc=4   min=335
+body=12569      type=DPM                       R=447    P=280    Rsrc=102 Psrc=4   min=280
+body=24146      type=KCg-s2                    R=82     P=73     Rsrc=32  Psrc=4   min=73
+body=44069      type=KCg-d                     R=95     P=66     Rsrc=14  Psrc=4   min=66
+body=520206     type=KCg-d                     R=85     P=50     Rsrc=21  Psrc=4   min=50
+body=44850      type=KCg-s3                    R=70     P=49     Rsrc=27  Psrc=4   min=49
+body=25030      type=KCg-s2                    R=45     P=62     Rsrc=27  Psrc=4   min=45
+body=10044      type=SMP108                    R=68     P=43     Rsrc=17  Psrc=1   min=43
+body=10122      type=SMP108                    R=47     P=41     Rsrc=10  Psrc=1   min=41
+body=58802      type=KCg-d                     R=41     P=44     Rsrc=14  Psrc=4   min=41
+body=40821      type=KCg                       R=44     P=40     Rsrc=20  Psrc=3   min=40
+body=21778      type=KCg-s1                    R=82     P=38     Rsrc=30  Psrc=4   min=38
+body=79362      type=KCg-s3                    R=76     P=38     Rsrc=25  Psrc=4   min=38
+body=11402      type=MBON11                    R=36     P=1393   Rsrc=24  Psrc=4   min=36
+body=38657      type=KCg-d                     R=63     P=35     Rsrc=23  Psrc=3   min=35
+body=18540      type=KCg-s1                    R=115    P=34     Rsrc=29  Psrc=4   min=34
+body=135897     type=KCg-d                     R=36     P=33     Rsrc=12  Psrc=3   min=33
+body=206739     type=KCg-s4                    R=32     P=42     Rsrc=15  Psrc=3   min=32
+body=87868      type=KCg-d                     R=36     P=30     Rsrc=16  Psrc=4   min=30
+body=80905      type=KCg-d                     R=30     P=34     Rsrc=12  Psrc=2   min=30
+body=556005     type=KCg-d                     R=30     P=30     Rsrc=11  Psrc=3   min=30
+body=519371     type=MBON05                    R=1010   P=29     Rsrc=57  Psrc=4   min=29
+body=10704      type=MBON11                    R=29     P=920    Rsrc=15  Psrc=2   min=29
+
+Saved:
+<PROJECT_ROOT>/results/direct_targets_all.csv
+<PROJECT_ROOT>/results/direct_convergence_shared.csv
