@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Large/raw third-party connectome assets should remain outside this repository.
+data/raw/
+*.feather
+*.npz
+neurons.csv
